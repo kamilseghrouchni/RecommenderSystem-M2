@@ -62,18 +62,6 @@ Do include your own ratings in your final submission so we can check your answer
 > sbt "runMain recommend.Recommender --data data/ml-100k/u.data --personal data/personal.csv --json recommendations.json"
 ````
 
-## Package for submission
-
-Steps:
-
-    1. Ensure you only used the dependencies listed in ````build.sbt```` in this template, and did not add any other.
-    2. Remove ````project/project````, ````project/target````, and ````target/````.
-    3. Test that all previous commands for generating statistics, predictions, and recommendations correctly produce a JSON file (after downloading/reinstalling dependencies).
-    4. Remove the ml-100k dataset (````data/ml-100k.zip````, and ````data/ml-100k````), as well as the````project/project````, ````project/target````, and ````target/````.
-    5. Add your report and any other necessary files listed in the Milestone description (see ````Deliverables````).
-    6. Zip the archive.
-    7. Submit to the TA for grading.
-
 # References
 
 Essential sbt: https://www.scalawilliam.com/essential-sbt/
@@ -86,8 +74,3 @@ Spark Resilient Distributed Dataset (RDD): https://spark.apache.org/docs/3.0.1/a
 
 JSON Serialization: https://github.com/json4s/json4s#serialization
 
-# Credits
-
-Erick Lavoie (Design, Implementation, Tests)
-
-Athanasios Xygkis (Requirements, Tests)
